@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://PhilWallace.github.io/sitemap.xml
