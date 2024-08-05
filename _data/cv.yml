@@ -2,96 +2,45 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Pengfei Jing
+    - name: E-mail
+      value: pengfei.jing@connect.polyu.hk
     - name: Languages
-      value: English, German
+      value: Chinese, English
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: Department of Computing (COMP), The Hong Kong Polytechnic University (PolyU)
+      year: 2019-2025(Tentitive)
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - In the major of Computer Science.
+        - Research interests include testing autonomous driving systems (ADS), AI-assisted program analysis, LLM implementations, etc.
+    - title: Bachelor
+      institution: Automation, Faculty of Electronic and Information Engineering, Xi'an Jiaotong University (XJTU)
+      year: 2015-2019
 
-- title: Experience
+- title: Projects
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: AI Binary Analysis
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Developing a Transformer-based automated binary code analysis tool that can directly recover architectural information, function boundaries, and compiler/optimization option information from the Byte Code level. It achieves over 99% accuracy on more than 50 architectures, significantly outperforming previous traditional ML-based methods.
+    
+    - title: Connected Vehicle Security Testing
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Conducting reverse analysis and penetration testing on the official apps of certain vehicle models. This has helped the team discover and validate numerous security vulnerabilities, including unencrypted critical information in the Bluetooth Low Energy vehicle control protocol within the code, extractable and reversible encryption algorithms, and untimely key updates.
+   
+    - title: LLM Evaluation Framework
       description:
+        - Designing the latest large model security capability evaluation framework, <a href="https://secbench.org/">SecBench</a>, in which contributions include the macro design of the evaluation framework, specific evaluation set data collection and cleaning, automated evaluation process development, and related data challenge competition evaluation rules, participant data scoring, and subsequent data cleaning. Compared to existing work, SecBench has the largest number of questions and the most comprehensive evaluation dimensions, and it is also the first framework to directly support numerous security exams and subjective question assessments. 
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - I am interested in all types of art, mainly including music, movie, and of course, video games.
+    - I hope Daft Punk could reunite some day. But, there's always regrets in life, isn't it?
+    - Enjoy what we already had, and Lose Yourself to Dance~
+
